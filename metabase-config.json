@@ -1,9 +1,15 @@
 {
     "devices": [
-        {"mac": "D9:F1:36:D9:7D:0B", "name": "shampoo"},
-	{"mac": "C1:BC:C5:86:6C:38", "name": "brush"}
+    {"mac": "E6:4F:B9:D7:18:7C", "name": "shampoo"},
+	{"mac": "F8:DC:C7:F1:48:7A", "name": "brush"},
+    {"mac": "E6:AC:5E:B8:4C:D9", "name": "toothpaste"},
+    {"mac": "CE:5A:39:E6:8F:B3", "name": "soap"},
+    {"mac": "F0:3D:E7:ED:F6:F7", "name": "lotion"}
     ],
     "sensors": {
-        "Accelerometer-Motion": {"odr": 25, "range": 16.0}
-    }
+        "Accelerometer": {"odr": 50, "range": 4},
+        "Gyroscope": {"odr": 50, "range": 1000}
+
+    },
+    "command": "stream"
 }
